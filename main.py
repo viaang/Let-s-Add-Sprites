@@ -39,6 +39,7 @@ class Sprites(pygame.sprite.Sprite) :
             pygame.event.post(pygame.event.Event(BACKROUND_COLOR_CHANGE_EVENT))
     
     def color_change(self) :
+        
         self.image.fill(random.choice([ORANGE,PURPLE,DARK_BLUE,BLACK,GREEN]))   
         
 def back_change(self):
